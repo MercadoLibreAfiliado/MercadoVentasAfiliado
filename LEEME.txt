@@ -1,0 +1,32 @@
+CÓMO USAR ESTA TIENDA
+======================
+
+1. AGREGAR O EDITAR PRODUCTOS
+   Abrí el archivo "productos.js" con cualquier editor de texto
+   (hasta el Bloc de notas sirve). Copiá un bloque de producto existente,
+   pegalo, y cambiá los datos. No hace falta tocar ningún otro archivo.
+
+2. CARGAR TUS LINKS DE AFILIADO REALES
+   Donde dice link: "#", reemplazá el "#" por el link que te dio
+   Mercado Libre Afiliados, Amazon Afiliados, etc. Por ejemplo:
+   link: "https://mercadolibre.com/sec/tu-codigo-aca"
+
+3. AGREGAR O QUITAR CATEGORÍAS
+   En el mismo archivo, arriba de todo, está la lista CATEGORIAS.
+   Podés agregar una nueva así:
+   { id: "deportes", nombre: "Deportes" }
+   El "id" tiene que coincidir con el que uses en categoria de cada producto.
+
+4. PROBAR LA PÁGINA EN TU COMPUTADORA
+   Hacé doble clic en "index.html" y se abre en el navegador.
+
+5. PUBLICARLA EN INTERNET (gratis)
+   La forma más simple es con Netlify o GitHub Pages:
+   - Netlify: entrá a netlify.com, creá una cuenta gratis, y arrastrá
+     la carpeta entera de la tienda a la página. En segundos te da un
+     link tipo "tutienda.netlify.app" que ya podés compartir.
+   - GitHub Pages: si ya usás GitHub, subís esta carpeta a un repositorio
+     y activás "Pages" en la configuración del repositorio.
+
+Cualquier duda sobre cómo seguir (agregar más secciones, cambiar colores,
+conectar un dominio propio, etc.), volvé a preguntarme.
